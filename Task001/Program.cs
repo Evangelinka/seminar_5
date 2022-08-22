@@ -43,4 +43,4 @@ int FindNegativeSum(int[] arr)
 int[] array = CreateArray(12, -9, 9);
 PrintArray(array);
 Console.WriteLine($"Сумма положительных элементов равна {FindPositiveSum(array)}");
-Console.WriteLine($"Сумма положительных элементов равна {FindNegativeSum(array)}");
+Console.WriteLine($"Сумма отрицательных элементов равна {FindNegativeSum(array)}");
